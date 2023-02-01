@@ -1,0 +1,22 @@
+.intro__quotes {
+	margin-top: 40px;
+	width: 758px;
+	height: 170px;
+	margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+	.intro__quotes {
+		width: 720px;
+		height: 170px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.intro__quotes {
+		width: 288px;
+		height: 300px;
+	}
+}

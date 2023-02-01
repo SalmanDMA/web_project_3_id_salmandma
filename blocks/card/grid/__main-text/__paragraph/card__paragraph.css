@@ -1,0 +1,42 @@
+.card__paragraph {
+	width: 484px;
+	height: 216px;
+	font-weight: 400;
+	font-size: 16.5px;
+	line-height: 163%;
+}
+/* tambahan kelas untuk paragraph di bagian kota america */
+.card__paragraph_highest {
+	height: 270px;
+}
+
+/* tammbahan kelas untuk paragaph di bagian kota muramvya */
+.card__paragraph_smallest {
+	height: 189px;
+}
+
+@media screen and (max-width: 768px) {
+	.card__paragraph {
+		width: 352px;
+		height: 220px;
+		font-size: 15px;
+	}
+
+	/* tambahan kelas untuk kota Berea */
+	.card__paragraph_highest {
+		height: 288px;
+	}
+
+	/* tambahan kelas untuk kota Muramvya */
+	.card__smaller {
+		height: 240px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.card__paragraph {
+		width: 288px;
+		height: max-content;
+		margin: 0 auto 20px;
+	}
+}

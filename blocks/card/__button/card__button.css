@@ -1,0 +1,37 @@
+.card__button {
+	padding: 13px 20px;
+	width: 304px;
+	height: 48px;
+	background: #0278fe;
+	border-radius: 4px;
+}
+
+/* tambahan kelas untuk button di bagian kota muramvya */
+.card__button_translateY {
+	transform: translateY(-250%);
+}
+
+@media screen and (max-width: 768px) {
+	.card__button {
+		transform: translateY(-130%);
+	}
+
+	/* tambahan kelas untuk kota Berea */
+
+	.button-america {
+		transform: translateY(-270%);
+	}
+
+	/* tambahan kelas untuk kota Muramvya */
+	.card__button_translateY {
+		transform: translateY(-630%);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.card__button {
+		margin: 0 16px 0;
+		width: 288px;
+		transform: translateY(50%);
+	}
+}

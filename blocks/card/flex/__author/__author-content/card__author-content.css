@@ -1,0 +1,22 @@
+.card__author-content {
+	width: 456px;
+	height: 44px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+	.card__author-content {
+		width: 309px;
+		height: 44px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.card__author-content {
+		width: 288px;
+		height: 66px;
+		font-size: 16px;
+	}
+}

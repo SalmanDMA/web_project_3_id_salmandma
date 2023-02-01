@@ -1,0 +1,16 @@
+.card__author-title {
+	width: 41px;
+	height: 15px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.12em;
+	color: #aaa;
+	margin-bottom: 8px;
+}
+
+@media screen and (max-width: 320px) {
+	.card__author-title {
+		width: 288px;
+	}
+}

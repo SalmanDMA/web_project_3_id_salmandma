@@ -1,0 +1,23 @@
+.header__heading {
+	margin: 0 auto 32px;
+	font-size: 96px;
+	line-height: 100px;
+	font-weight: 900;
+	width: 793px;
+	height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+	.header__heading {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header__heading {
+		width: 288px;
+		height: max-content;
+		font-size: 40px;
+		line-height: 44px;
+	}
+}

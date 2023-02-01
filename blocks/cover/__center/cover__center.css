@@ -1,0 +1,17 @@
+.cover__center {
+	position: absolute;
+	top: 35%;
+	transform: translateX(65%);
+}
+
+@media screen and (max-width: 768px) {
+	.cover__center {
+		transform: translateX(22%);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__center {
+		transform: translate(8%, -20%);
+	}
+}

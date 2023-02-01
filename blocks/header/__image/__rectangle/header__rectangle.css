@@ -1,0 +1,12 @@
+.header__rectangle {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	mix-blend-mode: hue;
+}
+
+@media screen and (max-width: 768px) {
+	.header__rectangle {
+		display: none;
+	}
+}

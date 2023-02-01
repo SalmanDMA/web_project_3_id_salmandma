@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+	.grid-image {
+		width: 352px;
+		height: 264px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.grid-image {
+		width: 288px;
+		height: 216px;
+	}
+}

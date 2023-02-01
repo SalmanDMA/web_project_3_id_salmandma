@@ -1,0 +1,19 @@
+.card__author {
+	width: 456px;
+	height: 67px;
+	align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+	.card__author {
+		width: 309px;
+		height: 67px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.card__author {
+		width: 288px;
+		height: 89px;
+	}
+}
