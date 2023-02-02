@@ -6,40 +6,43 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo/__logo-practicum/header__logo-practicum.css);
-@import url(../blocks/header/__text/__heading/header__heading.css);
-@import url(../blocks/header/__text/__subheading/header__subheading.css);
+@import url(../blocks/header/__heading/header__heading.css);
+@import url(../blocks/header/__subheading/header__subheading.css);
 @import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/header/__image/__image-hero/header__image-hero.css);
-@import url(../blocks/header/__image/__rectangle/header__rectangle.css);
+@import url(../blocks/header/__rectangle/header__rectangle.css);
 /* header end */
 
 /* intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/container/intro-container.css);
-@import url(../blocks/intro/container/__title/intro__title.css);
-@import url(../blocks/intro/container/__quotes/intro__quotes.css);
-@import url(../blocks/intro/container/__quotes/__quotes-paragraph/intro__quotes-paragraph.css);
-@import url(../blocks/intro/container/__quotes/__quotes-author/intro__quotes-author.css);
-@import url(../blocks/intro/container/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__quotes/intro__quotes.css);
+@import url(../blocks/intro/__quotes/__quotes-paragraph/intro__quotes-paragraph.css);
+@import url(../blocks/intro/__quotes/__quotes-author/intro__quotes-author.css);
+@import url(../blocks/intro/__text/intro__text.css);
 /* intro end */
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/grid-image/grid-image.css);
 /* photo-grid end */
+
+/* grid image */
+@import url(../blocks/grid-image/grid-image.css);
+/* grid image */
 
 /* card */
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/flex/card-flex.css);
-@import url(../blocks/card/flex/__title/card__title.css);
-@import url(../blocks/card/flex/__author/card__author.css);
-@import url(../blocks/card/flex/__author/__author-title/card__author-title.css);
-@import url(../blocks/card/flex/__author/__author-content/card__author-content.css);
-@import url(../blocks/card/flex/__author/__author-content/__author-newline/card__author-newline.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__author/card__author.css);
+@import url(../blocks/card/__author/__author-title/card__author-title.css);
+@import url(../blocks/card/__author/__author-content/card__author-content.css);
+@import url(../blocks/card/__author/__author-newline/card__author-newline.css);
 @import url(../blocks/card/grid/card-grid.css);
-@import url(../blocks/card/grid/__image/card__image.css);
-@import url(../blocks/card/grid/__main-text/card__main-text.css);
-@import url(../blocks/card/grid/__main-text/__paragraph/card__paragraph.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__main-text/card__main-text.css);
+@import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button/__button-text/card__button-text.css);
 /* card end */
@@ -48,9 +51,10 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__center/cover__center.css);
-@import url(../blocks/cover/__center/__title/cover__title.css);
-@import url(../blocks/cover/__center/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__center/__button/cover__button.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__subtitle-newline/cover__subtitle-newline.css);
+@import url(../blocks/cover/__button/cover__button.css);
 /* cover end */
 
 /* footer */

@@ -6,6 +6,10 @@
 	border-radius: 4px;
 }
 
+.card__button:hover {
+	cursor: pointer;
+}
+
 /* tambahan kelas untuk button di bagian kota muramvya */
 .card__button_translateY {
 	transform: translateY(-250%);
