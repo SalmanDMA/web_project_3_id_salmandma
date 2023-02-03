@@ -9,10 +9,6 @@
 	cursor: pointer;
 }
 
-.cover:hover .cover__background {
-	opacity: 0.3;
-}
-
 @media screen and (max-width: 320px) {
 	.cover__button {
 		font-size: 18px;

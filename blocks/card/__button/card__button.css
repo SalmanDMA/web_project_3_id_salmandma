@@ -4,10 +4,12 @@
 	height: 48px;
 	background: #0278fe;
 	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .card__button:hover {
-	cursor: pointer;
+	background: #0063d2;
 }
 
 /* tambahan kelas untuk button di bagian kota muramvya */

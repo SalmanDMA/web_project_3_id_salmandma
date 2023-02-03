@@ -6,6 +6,11 @@
 	width: 1184px;
 	height: 740px;
 	background-image: url(../../images/cover/overlay.png);
+	transition: all 0.3s ease-in-out;
+}
+
+.cover:hover .cover__background {
+	opacity: 0.3;
 }
 
 @media screen and (max-width: 768px) {
